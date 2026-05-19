@@ -122,26 +122,26 @@ export default function Hero() {
                 <div className="absolute inset-0 bg-gradient-to-br from-purple-400 via-pink-400 to-blue-400 rounded-full shadow-2xl"></div>
 
                 {/* Floating Elements */}
-                <div className="absolute -top-8 -left-8 w-32 h-32 bg-white rounded-3xl shadow-xl p-4 animate-float">
+                <div className="absolute -top-8 -left-8 w-32 h-32 bg-white rounded-3xl shadow-xl p-4 animate-float flex flex-col items-center justify-center text-center">
                   <div className="text-5xl mb-2">🎈</div>
                   <p className="text-xs font-bold text-gray-800">
                     Fun & Friendly
                   </p>
                 </div>
 
-                <div className="absolute -top-4 -right-4 w-28 h-28 bg-white rounded-3xl shadow-xl p-4 animate-float-delayed">
+                <div className="absolute -top-4 -right-4 w-28 h-28 bg-white rounded-3xl shadow-xl p-4 animate-float-delayed flex flex-col items-center justify-center text-center">
                   <div className="text-4xl mb-2">⭐</div>
                   <p className="text-xs font-bold text-gray-800">5.0 Rating</p>
                 </div>
 
-                <div className="absolute -bottom-6 left-8 w-36 h-36 bg-white rounded-3xl shadow-xl p-4 animate-float">
+                <div className="absolute -bottom-6 left-8 w-36 h-36 bg-white rounded-3xl shadow-xl p-4 animate-float flex flex-col items-center justify-center text-center">
                   <div className="text-5xl mb-2">🏆</div>
                   <p className="text-xs font-bold text-gray-800">
                     10+ Years Trust
                   </p>
                 </div>
 
-                <div className="absolute bottom-8 -right-8 w-32 h-32 bg-white rounded-3xl shadow-xl p-4 animate-float-delayed">
+                <div className="absolute bottom-8 -right-8 w-32 h-32 bg-white rounded-3xl shadow-xl p-4 animate-float-delayed flex flex-col items-center justify-center text-center">
                   <div className="text-5xl mb-2">💙</div>
                   <p className="text-xs font-bold text-gray-800">100% Care</p>
                 </div>
