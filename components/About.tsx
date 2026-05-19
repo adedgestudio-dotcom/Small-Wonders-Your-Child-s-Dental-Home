@@ -106,12 +106,12 @@ export default function About() {
             </div>
 
             {/* Floating badges */}
-            <div className="absolute -top-6 -right-6 bg-white rounded-2xl shadow-xl p-4 border-2 border-purple-200 animate-float">
+            <div className="absolute -top-6 -right-6 bg-white rounded-2xl shadow-xl p-4 border-2 border-purple-200 animate-float flex flex-col items-center justify-center text-center">
               <div className="text-3xl mb-1">⭐</div>
               <p className="text-xs font-bold text-gray-800">5.0 Rating</p>
             </div>
 
-            <div className="absolute -bottom-6 -left-6 bg-white rounded-2xl shadow-xl p-4 border-2 border-pink-200 animate-float-delayed">
+            <div className="absolute -bottom-6 -left-6 bg-white rounded-2xl shadow-xl p-4 border-2 border-pink-200 animate-float-delayed flex flex-col items-center justify-center text-center">
               <div className="text-3xl mb-1">🏆</div>
               <p className="text-xs font-bold text-gray-800">10+ Years</p>
             </div>
