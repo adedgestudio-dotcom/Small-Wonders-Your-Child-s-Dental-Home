@@ -123,31 +123,34 @@ export default function Services() {
           {services.map((service, index) => (
             <div
               key={service.title}
-              className={`group relative bg-white rounded-3xl p-8 shadow-lg border-2 ${service.borderColor} hover:shadow-2xl hover:-translate-y-2 transition-all duration-300`}
+              className="group relative"
               style={{ animationDelay: `${index * 0.1}s` }}
             >
-              {/* Gradient top border */}
+              {/* Gradient border wrapper */}
               <div
-                className={`absolute top-0 left-0 right-0 h-1 bg-gradient-to-r ${service.color} rounded-t-3xl`}
+                className={`absolute inset-0 bg-gradient-to-br ${service.color} rounded-3xl`}
               ></div>
 
-              {/* Icon */}
-              <div
-                className={`w-16 h-16 rounded-2xl bg-gradient-to-br ${service.color} flex items-center justify-center mb-6 shadow-lg group-hover:scale-110 transition-transform duration-300`}
-              >
-                <service.icon className="w-8 h-8 text-white" />
+              {/* Card content */}
+              <div className="relative bg-white rounded-3xl p-8 m-[2px] shadow-lg hover:shadow-2xl transition-all duration-300 group-hover:-translate-y-2">
+                {/* Icon */}
+                <div
+                  className={`w-16 h-16 rounded-2xl bg-gradient-to-br ${service.color} flex items-center justify-center mb-6 shadow-lg group-hover:scale-110 transition-transform duration-300`}
+                >
+                  <service.icon className="w-8 h-8 text-white" />
+                </div>
+
+                {/* Content */}
+                <h3 className="text-xl font-black text-gray-900 mb-3">
+                  {service.title}
+                </h3>
+                <p className="text-gray-600 leading-relaxed">{service.desc}</p>
+
+                {/* Hover effect */}
+                <div
+                  className={`absolute inset-0 ${service.bgColor} rounded-3xl opacity-0 group-hover:opacity-100 transition-opacity duration-300 -z-10`}
+                ></div>
               </div>
-
-              {/* Content */}
-              <h3 className="text-xl font-black text-gray-900 mb-3">
-                {service.title}
-              </h3>
-              <p className="text-gray-600 leading-relaxed">{service.desc}</p>
-
-              {/* Hover effect */}
-              <div
-                className={`absolute inset-0 ${service.bgColor} rounded-3xl opacity-0 group-hover:opacity-100 transition-opacity duration-300 -z-10`}
-              ></div>
             </div>
           ))}
         </div>

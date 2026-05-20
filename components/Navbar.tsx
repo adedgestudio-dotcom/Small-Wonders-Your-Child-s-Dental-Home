@@ -36,9 +36,9 @@ export default function Navbar() {
           href="#home"
           className="flex items-center gap-2 sm:gap-3 group flex-shrink-0"
         >
-          <div className="relative w-12 h-12 sm:w-14 sm:h-14 rounded-2xl bg-gradient-to-br from-purple-500 via-pink-500 to-blue-500 flex items-center justify-center shadow-lg group-hover:shadow-xl group-hover:scale-110 transition-all duration-300">
-            <Sparkles className="w-6 h-6 sm:w-7 sm:h-7 text-white" />
-            <div className="absolute -top-1 -right-1 w-3 h-3 sm:w-4 sm:h-4 bg-yellow-400 rounded-full animate-pulse"></div>
+          <div className="relative w-10 h-10 sm:w-12 sm:h-12 lg:w-14 lg:h-14 rounded-2xl bg-gradient-to-br from-purple-500 via-pink-500 to-blue-500 flex items-center justify-center shadow-lg group-hover:shadow-xl group-hover:scale-110 transition-all duration-300">
+            <Sparkles className="w-5 h-5 sm:w-6 sm:h-6 lg:w-7 lg:h-7 text-white" />
+            <div className="absolute -top-1 -right-1 w-2.5 h-2.5 sm:w-3 sm:h-3 lg:w-4 lg:h-4 bg-yellow-400 rounded-full animate-pulse"></div>
           </div>
           <div className="hidden sm:block">
             <h1 className="font-black text-lg sm:text-xl bg-gradient-to-r from-purple-600 to-pink-600 bg-clip-text text-transparent leading-tight">
@@ -85,7 +85,7 @@ export default function Navbar() {
           className="lg:hidden p-2 rounded-xl text-purple-600 hover:bg-purple-50 transition-colors flex-shrink-0"
           aria-label="Toggle menu"
         >
-          {isOpen ? <X size={24} /> : <Menu size={24} />}
+          {isOpen ? <X size={20} /> : <Menu size={20} />}
         </button>
       </nav>
 
