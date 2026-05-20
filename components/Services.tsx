@@ -172,15 +172,16 @@ export default function Services() {
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
               <a
                 href="#contact"
-                className="px-8 py-4 bg-white text-purple-700 font-bold rounded-full shadow-xl hover:shadow-2xl hover:scale-105 transition-all duration-300"
+                className="px-6 sm:px-8 py-3 sm:py-4 bg-white text-purple-700 font-bold rounded-full shadow-xl hover:shadow-2xl hover:scale-105 transition-all duration-300 flex items-center justify-center gap-2 whitespace-nowrap text-sm sm:text-base"
               >
-                📅 Schedule Appointment
+                <span>📅</span>
+                <span>Schedule Appointment</span>
               </a>
               <a
                 href="https://wa.me/919606976655?text=Hi!%20I'd%20like%20to%20know%20more%20about%20your%20services."
                 target="_blank"
                 rel="noopener noreferrer"
-                className="px-8 py-4 bg-green-500 text-white font-bold rounded-full shadow-xl hover:shadow-2xl hover:scale-105 transition-all duration-300"
+                className="px-6 sm:px-8 py-3 sm:py-4 bg-green-500 text-white font-bold rounded-full shadow-xl hover:shadow-2xl hover:scale-105 transition-all duration-300 flex items-center justify-center gap-2 whitespace-nowrap text-sm sm:text-base"
               >
                 <svg
                   className="w-5 h-5 inline-block mr-2"
