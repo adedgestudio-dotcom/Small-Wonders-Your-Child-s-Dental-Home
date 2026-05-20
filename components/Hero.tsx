@@ -50,7 +50,7 @@ export default function Hero() {
               </span>
             </p>
 
-            {/* CTA Buttons */}
+            {/* CTA Buttons - Mobile Optimized */}
             <div className="flex flex-col sm:flex-row gap-4 justify-center lg:justify-start">
               <a
                 href="#contact"
