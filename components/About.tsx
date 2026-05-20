@@ -40,9 +40,9 @@ export default function About() {
 
         <div className="grid lg:grid-cols-2 gap-16 items-center">
           {/* Left - Doctor Info Card */}
-          <div className="relative">
-            <div className="bg-gradient-to-br from-purple-500 via-pink-500 to-blue-500 p-1 rounded-3xl shadow-2xl">
-              <div className="bg-white rounded-3xl p-8 lg:p-10">
+          <div className="relative px-8 sm:px-0">
+            <div className="bg-gradient-to-br from-purple-500 via-pink-500 to-blue-500 p-[2px] rounded-3xl shadow-2xl">
+              <div className="bg-white rounded-3xl p-6 sm:p-8 lg:p-10">
                 <div className="flex items-center gap-4 mb-6">
                   <div className="w-20 h-20 rounded-2xl bg-gradient-to-br from-purple-500 to-pink-500 flex items-center justify-center shadow-lg">
                     <GraduationCap className="w-10 h-10 text-white" />
@@ -106,13 +106,13 @@ export default function About() {
             </div>
 
             {/* Floating badges */}
-            <div className="absolute -top-6 -right-6 bg-white rounded-2xl shadow-xl p-4 border-2 border-purple-200 animate-float flex flex-col items-center justify-center text-center">
-              <div className="text-3xl mb-1">⭐</div>
+            <div className="absolute -top-4 sm:-top-6 -right-4 sm:-right-6 bg-white rounded-2xl shadow-xl p-3 sm:p-4 border-2 border-purple-200 animate-float flex flex-col items-center justify-center text-center">
+              <div className="text-2xl sm:text-3xl mb-1">⭐</div>
               <p className="text-xs font-bold text-gray-800">5.0 Rating</p>
             </div>
 
-            <div className="absolute -bottom-6 -left-6 bg-white rounded-2xl shadow-xl p-4 border-2 border-pink-200 animate-float-delayed flex flex-col items-center justify-center text-center">
-              <div className="text-3xl mb-1">🏆</div>
+            <div className="absolute -bottom-4 sm:-bottom-6 -left-4 sm:-left-6 bg-white rounded-2xl shadow-xl p-3 sm:p-4 border-2 border-pink-200 animate-float-delayed flex flex-col items-center justify-center text-center">
+              <div className="text-2xl sm:text-3xl mb-1">🏆</div>
               <p className="text-xs font-bold text-gray-800">10+ Years</p>
             </div>
           </div>

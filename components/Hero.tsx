@@ -54,11 +54,11 @@ export default function Hero() {
             <div className="flex flex-col sm:flex-row gap-4 justify-center lg:justify-start">
               <a
                 href="#contact"
-                className="group relative px-8 py-4 bg-gradient-to-r from-purple-600 to-pink-600 text-white font-bold rounded-full shadow-2xl shadow-purple-500/50 hover:shadow-purple-500/70 hover:scale-105 transition-all duration-300 overflow-hidden"
+                className="group relative px-6 sm:px-8 py-3 sm:py-4 bg-gradient-to-r from-purple-600 to-pink-600 text-white font-bold rounded-full shadow-2xl shadow-purple-500/50 hover:shadow-purple-500/70 hover:scale-105 transition-all duration-300 overflow-hidden"
               >
-                <span className="relative z-10 flex items-center justify-center gap-2">
+                <span className="relative z-10 flex items-center justify-center gap-2 whitespace-nowrap text-sm sm:text-base">
                   <span>📅</span>
-                  Book Appointment
+                  Schedule Appointment
                 </span>
                 <div className="absolute inset-0 bg-gradient-to-r from-pink-600 to-purple-600 opacity-0 group-hover:opacity-100 transition-opacity duration-300"></div>
               </a>
@@ -66,7 +66,7 @@ export default function Hero() {
                 href="https://wa.me/919606976655?text=Hi!%20I'd%20like%20to%20book%20an%20appointment%20at%20Small%20Wonders."
                 target="_blank"
                 rel="noopener noreferrer"
-                className="px-8 py-4 bg-white text-purple-700 font-bold rounded-full shadow-xl border-2 border-purple-200 hover:border-purple-400 hover:shadow-2xl hover:scale-105 transition-all duration-300 flex items-center justify-center gap-2"
+                className="px-6 sm:px-8 py-3 sm:py-4 bg-white text-purple-700 font-bold rounded-full shadow-xl border-2 border-purple-200 hover:border-purple-400 hover:shadow-2xl hover:scale-105 transition-all duration-300 flex items-center justify-center gap-2 whitespace-nowrap text-sm sm:text-base"
               >
                 <svg
                   className="w-6 h-6"
